@@ -15,7 +15,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @PageTitle("My App")
-@Theme(value = "password-generator")
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
